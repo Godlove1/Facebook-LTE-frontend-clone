@@ -9,6 +9,9 @@ body{
 	height: 100vh;
 }
 
+main{
+	position: relative;
+}
 .header1{
 		display: flex;
 		justify-content: space-between;
@@ -314,9 +317,10 @@ align-items: center;
 		width: 480px;
 	height: auto;
 margin-left: 25%;
+position: relative;
 	}
 	.splash{
-			width: 480px;
+			width:100%;
 	}
 }
 
@@ -325,9 +329,10 @@ margin-left: 25%;
 		width: 480px;
 	height: auto;
 margin-left: 25%;
+position: relative;
 	}
 		.splash{
-			width: 480px;
+			width: 100%;
 	}
 }
 
@@ -336,9 +341,10 @@ margin-left: 25%;
 		width: 480px;
 	height: auto;
 margin-left: 33%;
+position: relative;
 	}
 	.splash{
-			width: 480px;
+			width: 100%;
 			height: auto;
 	}	
 }
@@ -348,9 +354,10 @@ margin-left: 33%;
 		width: 480px;
 	height: auto;
 margin-left: 35%;
+position: relative;
 	}
 		.splash{
-			width: 480px;
+			width: 100%;
 	}
 }
 
@@ -365,7 +372,7 @@ justify-content: center;
 align-items: center;
 z-index: 1;
 opacity: 0;
-animation: pulse 3s 3 ;
+animation: pulse 3s 2 ;
 
 .anime{
 display: flex;
@@ -375,7 +382,7 @@ flex-direction: column;
 
 }
 					.face{
-						font-size: 2.5em;
+						font-size: 2em;
 						color: blue;
 
 										sup{

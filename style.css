@@ -10,6 +10,10 @@ body {
   height: 100vh;
 }
 
+main {
+  position: relative;
+}
+
 .header1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -401,9 +405,10 @@ body {
     width: 480px;
     height: auto;
     margin-left: 25%;
+    position: relative;
   }
   .splash {
-    width: 480px;
+    width: 100%;
   }
 }
 
@@ -412,9 +417,10 @@ body {
     width: 480px;
     height: auto;
     margin-left: 25%;
+    position: relative;
   }
   .splash {
-    width: 480px;
+    width: 100%;
   }
 }
 
@@ -423,9 +429,10 @@ body {
     width: 480px;
     height: auto;
     margin-left: 33%;
+    position: relative;
   }
   .splash {
-    width: 480px;
+    width: 100%;
     height: auto;
   }
 }
@@ -435,9 +442,10 @@ body {
     width: 480px;
     height: auto;
     margin-left: 35%;
+    position: relative;
   }
   .splash {
-    width: 480px;
+    width: 100%;
   }
 }
 
@@ -458,8 +466,8 @@ body {
           align-items: center;
   z-index: 1;
   opacity: 0;
-  -webkit-animation: pulse 3s 3;
-          animation: pulse 3s 3;
+  -webkit-animation: pulse 3s 2;
+          animation: pulse 3s 2;
 }
 
 .splash .anime {
@@ -479,7 +487,7 @@ body {
 }
 
 .splash .face {
-  font-size: 2.5em;
+  font-size: 2em;
   color: blue;
 }
 
@@ -530,4 +538,3 @@ body {
     opacity: 1;
   }
 }
-/*# sourceMappingURL=style.css.map */
